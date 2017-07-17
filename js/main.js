@@ -2,10 +2,15 @@
  * @Author: anchen
  * @Date:   2017-07-10 12:35:14
  * @Last Modified by:   anchen
- * @Last Modified time: 2017-07-17 12:04:39
+ * @Last Modified time: 2017-07-17 14:49:27
  */
 
 'use strict';
+
+$(function () {
+    //修复水果机开始不播放音乐
+    $('#music')[0].play();
+});
 
 window.onload = function () {
     $('#loading').css('display', 'none');
