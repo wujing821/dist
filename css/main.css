@@ -625,13 +625,13 @@ img {
 #page8 .p6 {
   width: 8rem;
   position: absolute;
-  top: 57%;
+  top: 55%;
   left: 50%;
   text-align: center;
   margin-left: -4rem;
 }
 #page8 .p7 {
-  width: 80%;
+  width: 85%;
   position: absolute;
   top: 63%;
   left: 50%;
@@ -1112,14 +1112,14 @@ img {
 #page16 .p5 {
   width: 6rem;
   position: absolute;
-  top: 48%;
+  top: 47%;
   left: 50%;
   margin-left: -3rem;
 }
 #page16 .p6 {
   width: 6rem;
   position: absolute;
-  top: 52%;
+  top: 51%;
   left: 50%;
   margin-left: -3rem;
 }

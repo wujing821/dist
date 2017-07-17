@@ -2,15 +2,17 @@
  * @Author: anchen
  * @Date:   2017-07-10 12:35:14
  * @Last Modified by:   anchen
- * @Last Modified time: 2017-07-17 17:17:48
+ * @Last Modified time: 2017-07-17 18:20:05
  */
 
 'use strict';
 
-
 window.onload = function () {
     $('#loading').css('display', 'none');
-    $('#music')[0].play();
+    console.log($('#music')[0]);
+    // alert(123);
+    //修复水果机开始音乐
+
     main();
 };
 
@@ -283,6 +285,26 @@ function main(argument) {
         }
     });
     //音乐开关
+    /*dcument.addEventListener('touchstart', function () {
+        alert(123);
+        $('#music')[0].play(); 
+    }, useCapture);*/
+    function audioAutoPlay(id) {
+        var audio = document.getElementById(id),
+            play = function play() {
+            audio.play();
+            document.removeEventListener("touchstart", play, false);
+        };
+        audio.play();
+        document.addEventListener("WeixinJSBridgeReady", function () {
+            play();
+        }, false);
+        document.addEventListener('YixinJSBridgeReady', function () {
+            play();
+        }, false);
+        document.addEventListener("touchstart", play, false);
+    }
+    audioAutoPlay('music');
     var onoff = true;
     var $music = $('#music')[0];
     $('#playContainer').on('click', function (event) {
