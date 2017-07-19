@@ -344,7 +344,7 @@ img {
 }
 /*******************************04.html********************************************/
 #page4 {
-  background: url('../images/bg_03.jpg') no-repeat;
+  background: url('../images/bg_04.jpg') no-repeat;
   background-size: 100% 100%;
   position: relative;
 }
@@ -700,6 +700,12 @@ img {
   top: 60%;
   left: 20%;
 }
+#page9 .p6 {
+  width: 80%;
+  position: absolute;
+  top: 65%;
+  left: 20%;
+}
 #page9 .xiaobiaoti1 {
   font-size: .35rem;
   color: #05edbf;
@@ -888,20 +894,20 @@ img {
 #page12 .p8 {
   width: 6rem;
   position: absolute;
-  top: 67%;
+  top: 70%;
   left: 50%;
   margin-left: -3rem;
 }
 #page12 .p9 {
   width: 6rem;
   position: absolute;
-  top: 71%;
+  top: 74%;
   left: 50%;
   margin-left: -3rem;
 }
 #page12 .xiaobiaoti {
   text-align: left;
-  font-size: .32rem;
+  font-size: .36rem;
   color: #05edbf;
 }
 #page12 .content {
@@ -967,7 +973,7 @@ img {
 }
 #page13 .xiaobiaoti {
   text-align: left;
-  font-size: .32rem;
+  font-size: .36rem;
   color: #05edbf;
 }
 #page13 .content {
@@ -1033,7 +1039,7 @@ img {
 }
 #page14 .xiaobiaoti {
   text-align: left;
-  font-size: .32rem;
+  font-size: .36rem;
   color: #05edbf;
 }
 #page14 .content {
